@@ -50,6 +50,10 @@ header {
   color: #6d28d9;
 }
 
+.navbar a.active {
+  font-weight: 600;
+}
+
 .navbar a.active::after {
   content: "";
   position: absolute;
